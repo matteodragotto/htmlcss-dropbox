@@ -307,6 +307,33 @@ img{
   margin-bottom: 150px;
 }
 
+/*-----------------------FOOTER------------------*/
 
+footer{
+  height: 580px;
+  background-color: #000000;
+  color: white;
+}
 
+.foot-box{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
 
+.foot-col{
+  width: calc(100% / 5);
+}
+
+footer ul{
+  list-style: none;
+}
+
+footer ul li{
+  margin: 20px 0;
+}
+
+footer .line{
+  margin-top: 120px;
+  width: 10%;
+}
