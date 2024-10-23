@@ -13,11 +13,6 @@ body{
   border: 1px dotted black;
 }
 
-.container{
-  margin: 0 auto;
-  max-width: 100%;
-}
-
 .d-flex{
   display: flex;
 }
@@ -71,15 +66,61 @@ header .navbar .col ul li:not(.logo):hover{
   border-bottom: 2px solid black;
 }
 
-/*---------------MAIN----------*/
+/*-------------------------------MAIN--------------------------------*/
+
+/*--------------Jumbotron------------*/
 
 #jumbotron{
   height: 740px;
   max-width: 100%;
+  background-color: #B4D0E7;
+  padding: 24px 0;
+  margin-bottom: 164px;
+  position: relative;
 }
 
 #jumbotron .jumbo-box{
   width: 1170px;
   height: 690px;
-  margin: 24px auto;
+  margin: 0 auto;
 }
+
+#jumbotron .jumbo-box .jumbo-top{
+  margin-bottom: 77px;
+}
+
+#jumbotron .jumbo-box h1{
+  font-size: 5rem;
+  padding-right: 126px;
+  font-weight: bolder;
+}
+
+#jumbotron .jumbo-box .j-txt{
+  width: 30%;
+}
+
+#jumbotron .jumbo-box .j-img{
+  width: 70%;
+}
+
+/*--------------Sections--------------*/ù
+
+.container{
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.container .sect-title h2{
+  font-size: 40px;
+  width: 100%;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col{
+  width: calc(100% / 3);
+}
+
