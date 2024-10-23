@@ -181,6 +181,19 @@ header .navbar .col ul li:not(.logo):hover{
   margin-bottom: 90px;
 }
 
+.business .functions{
+  height: 470px;
+  margin-bottom: 80px;
+}
+
+.business-end h2{
+  margin-bottom: 70px;
+}
+
+.business-end{
+  margin-bottom: 150px;
+}
+
 
 
 
