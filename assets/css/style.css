@@ -103,15 +103,15 @@ header .navbar .col ul li:not(.logo):hover{
   width: 70%;
 }
 
-/*--------------Sections--------------*/ù
+/*--------------Sections--------------*/
 
 .container{
-  margin: 0 auto;
   max-width: 1000px;
+  margin: 0 auto;
 }
 
 .container .sect-title h2{
-  font-size: 40px;
+  font-size: 3rem;
   width: 100%;
 }
 
@@ -122,5 +122,33 @@ header .navbar .col ul li:not(.logo):hover{
 
 .col{
   width: calc(100% / 3);
+  padding: 0 10px 0 0;
 }
+
+.card{
+  border: 1px solid #E1E1E3;
+}
+
+.package .container ul{
+  list-style: none;
+}
+
+.package .container .sect-title ul li{
+  padding: 50px 40px 0 0;
+}
+
+.usertype{
+  height: 40px;
+  font-size: 18px;
+  text-align: center;
+  padding: 8px;
+  border-bottom: 1px solid #E1E1E3;
+}
+
+.offer{
+  height: 821px;
+}
+
+
+
 
