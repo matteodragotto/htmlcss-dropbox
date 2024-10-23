@@ -110,7 +110,7 @@ header .navbar .col ul li:not(.logo):hover{
   margin: 0 auto;
 }
 
-.container .sect-title h2{
+.container h2{
   font-size: 3rem;
   width: 100%;
 }
@@ -118,11 +118,17 @@ header .navbar .col ul li:not(.logo):hover{
 .row{
   display: flex;
   flex-wrap: wrap;
+  margin-top: 55px;
 }
 
 .col{
   width: calc(100% / 3);
   padding: 0 10px 0 0;
+}
+
+.col.large{
+  width: 100%;
+  margin-top: 50px;
 }
 
 .card{
@@ -147,6 +153,32 @@ header .navbar .col ul li:not(.logo):hover{
 
 .offer{
   height: 821px;
+}
+
+.offer.large{
+  height: 260px;
+}
+
+.partner{
+  margin-top: 150px;
+}
+
+.partner .container{
+  margin-bottom: 170px;
+}
+
+.partner-img{
+  width: 60%;
+  height: 510px;
+}
+
+.partner-txt{
+  width: 40%;
+  height: 510px;
+}
+
+.business-title{
+  margin-bottom: 90px;
 }
 
 
