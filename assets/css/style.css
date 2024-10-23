@@ -275,12 +275,10 @@ img{
 
 .partner-img{
   width: 60%;
-  height: 510px;
 }
 
 .partner-txt{
   width: 40%;
-  height: 510px;
   padding: 40px;
 }
 
@@ -295,6 +293,10 @@ img{
 .business .functions{
   height: 470px;
   margin-bottom: 80px;
+}
+
+.business .functions .txt{
+  padding: 20px 20px;
 }
 
 .business-end h2{
