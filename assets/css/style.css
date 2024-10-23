@@ -27,7 +27,7 @@ body{
 header{
   height: 80px;
   width: 100%;
-  position: fixed;
+  /*position: fixed;*/
   background-color: white;
   justify-content: center;
 }
@@ -63,18 +63,23 @@ header .navbar .col ul li a{
   height: 100%;
 }
 
+header .navbar .col ul li a:hover{
+  cursor: pointer;
+}
+
 header .navbar .col ul li:not(.logo):hover{
   border-bottom: 2px solid black;
 }
 
-
-
-
-
-/*main{
-  height: calc(100% - 80px);
-}
+/*---------------MAIN----------*/
 
 #jumbotron{
   height: 740px;
-}*/
+  max-width: 100%;
+}
+
+#jumbotron .jumbo-box{
+  width: 1170px;
+  height: 690px;
+  margin: 24px auto;
+}
