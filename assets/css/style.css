@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -136,6 +140,14 @@ main{
 #jumbotron .jumbo-box .j-txt{
   width: 30%;
   font-size: 16px;
+}
+
+#jumbotron .jumbo-box .j-txt .anchor{
+  margin-top: 80px;
+}
+
+#jumbotron .jumbo-box .j-txt .anchor a{
+  font-size: 50px;
 }
 
 #jumbotron .jumbo-box .j-txt p{
