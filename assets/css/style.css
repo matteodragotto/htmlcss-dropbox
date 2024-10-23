@@ -17,14 +17,21 @@ body{
   display: flex;
 }
 
+.txt-white{
+  color: white;
+  background-color: #0061FF;
+  padding: 8px 16px;
+}
+
 /*---------------HEADER----------------*/
 
 header{
   height: 80px;
   width: 100%;
-  /*position: fixed;*/
+  position: fixed;
   background-color: white;
   justify-content: center;
+  z-index: 999;
 }
 
 header .navbar{
@@ -36,6 +43,7 @@ header .navbar{
 header .navbar .col{
   width: 30%;
   height: 100%;
+  margin: 0 20px;
 }
 
 header .navbar .col ul{
@@ -50,12 +58,19 @@ header .navbar .col ul{
 
 header .navbar .col ul li{
   height: 100%;
-  padding: 30px 20px;
+  padding: 30px 0;
 }
 
 header .navbar .col ul li a{
   text-decoration: none;
   height: 100%;
+  font-size: 20px;
+}
+
+
+
+header .navbar .col ul li a:not(.txt-white){
+  color: black;
 }
 
 header .navbar .col ul li a:hover{
@@ -67,6 +82,10 @@ header .navbar .col ul li:not(.logo):hover{
 }
 
 /*-------------------------------MAIN--------------------------------*/
+
+main{
+  padding-top: 80px;
+}
 
 /*--------------Jumbotron------------*/
 
