@@ -212,6 +212,8 @@ img{
   height: 100%;
 }
 
+/*---------------Package Section--------------*/
+
 .package .container ul{
   list-style: none;
 }
@@ -306,7 +308,6 @@ img{
   color: #0061FF;
 }
 
-
 .offer p:first-child{
   margin-top: 54px;
 }
@@ -326,6 +327,8 @@ img{
   height: 1px;
   margin-bottom: 35px;
 }
+
+/*---------------Partner Section--------------*/
 
 .partner{
   margin-top: 150px;
@@ -347,6 +350,8 @@ img{
 .partner-txt p{
   margin: 20px 0 40px 0;
 }
+
+/*---------------Business Section--------------*/
 
 .business-title{
   margin-bottom: 90px;
