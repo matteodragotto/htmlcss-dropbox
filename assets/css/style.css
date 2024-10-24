@@ -9,9 +9,7 @@ html{
 }
 
 body{
-  font-family: "Open Sans", sans-serif;
-  font-weight: 500;
-  font-style: normal;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .debug{
@@ -23,7 +21,7 @@ body{
   display: flex;
 }
 
-.txt-white{
+.btn-blue{
   color: white;
   background-color: #0061FF;
   padding: 8px 16px;
@@ -82,7 +80,7 @@ header .navbar .col ul li a{
   font-size: 16px;
 }
 
-header .navbar .col ul li a:not(.txt-white){
+header .navbar .col ul li a:not(.btn-blue){
   color: black;
 }
 
@@ -235,13 +233,13 @@ img{
   position: relative;
 }
 
-.offer-large{
-  height: 260px;
-}
-
 .offer-large .txt{
   width: 73%;
   padding: 40px 60px 30px 30px;
+}
+
+.offer-large .txt h4{
+  margin: 26px 0 58px 0;
 }
 
 .offer-large .sales{
@@ -250,6 +248,17 @@ img{
 
 .offer-large p{
   font-size: 0.9rem;
+}
+
+.offer-large .sales{
+  position: relative;
+}
+
+.offer-large .sales a{
+  position: absolute;
+  left: 0;
+  top: 30px;
+  padding: 12px 30px;
 }
 
 .offer h3,
@@ -304,6 +313,11 @@ img{
 
 .offer p:last-child{
   margin: 36px 0 34px 0;
+}
+
+.offer .links a.btn-blue{
+  padding: 14px 36px;
+  font-size: 0.9rem;
 }
 
 .line{
