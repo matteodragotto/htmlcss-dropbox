@@ -10,11 +10,8 @@ html{
 
 body{
   font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
 }
 
 .debug{
@@ -256,10 +253,36 @@ img{
   margin-bottom: 28px;
 }
 
+.offer ul{
+  padding: 0 20px;
+  margin-top: 28px;
+  position: relative;
+}
+
 .offer li{
   font-size: 14px;
 }
 
+.offer li:first-child::before{
+  content:'\f007';
+  font-family: FontAwesome;
+  position: absolute;
+  left: -0.5%;
+}
+
+.offer li:nth-child(2)::before{
+  content:'\f07b';
+  font-family: FontAwesome;
+  position: absolute;
+  left: -0.5%;
+}
+
+.offer li:last-child::before{
+  content:'\f1e0';
+  font-family: FontAwesome;
+  position: absolute;
+  left: -0.5%;
+}
 
 
 .offer p:first-child{
