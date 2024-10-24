@@ -9,7 +9,8 @@ html{
 }
 
 body{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500;  
 }
 
 .debug{
@@ -184,11 +185,12 @@ img{
 
 .container h4{
   font-size: 1rem;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
-.container h5{
+.container span{
   font-size: 0.9rem;
+  color: #999999;
 }
 
 .row{
@@ -263,8 +265,10 @@ img{
   padding: 12px 30px;
 }
 
-.offer h3,
-.offer h5,
+.offer h3{
+  margin-bottom: 26px;
+}
+
 .offer ul li {
   margin-bottom: 28px;
 }
