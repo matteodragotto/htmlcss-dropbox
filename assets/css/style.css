@@ -211,6 +211,7 @@ img{
 
 .card{
   border: 1px solid #E1E1E3;
+  height: 100%;
 }
 
 .package .container ul{
@@ -230,17 +231,21 @@ img{
 }
 
 .offer{
-  height: 821px;
   padding: 24px;
   position: relative;
 }
 
 .offer-large{
   height: 260px;
-  flex-direction: column;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 30px 30px;
+}
+
+.offer-large .txt{
+  width: 73%;
+  padding: 40px 60px 30px 30px;
+}
+
+.offer-large .sales{
+  width: 27%;
 }
 
 .offer-large p{
@@ -263,25 +268,33 @@ img{
   font-size: 14px;
 }
 
-.offer li:first-child::before{
+.offer ul.features li:first-child::before{
   content:'\f007';
   font-family: FontAwesome;
   position: absolute;
   left: -0.5%;
 }
 
-.offer li:nth-child(2)::before{
+.offer ul.features li:nth-child(2)::before{
   content:'\f07b';
   font-family: FontAwesome;
   position: absolute;
   left: -0.5%;
 }
 
-.offer li:last-child::before{
+.offer ul.features li:last-child::before{
   content:'\f1e0';
   font-family: FontAwesome;
   position: absolute;
   left: -0.5%;
+}
+
+.offer ul.keypoint li::before{
+  content:'\f00c';
+  font-family: FontAwesome;
+  position: absolute;
+  left: -0.5%;
+  color: #0061FF;
 }
 
 
