@@ -111,8 +111,7 @@ main{
 }
 
 #jumbotron .jumbo-box{
-  width: 1170px;
-  height: 690px;
+  max-width: 1170px;
   margin: 0 auto;
   position: absolute;
   top: 12%;
@@ -136,10 +135,13 @@ main{
 #jumbotron .jumbo-box .j-txt{
   width: 30%;
   font-size: 16px;
+  position: relative;
 }
 
 #jumbotron .jumbo-box .j-txt .anchor{
-  margin-top: 80px;
+  /*margin-top: 80px;*/
+  position: absolute;
+  bottom: 80px;
 }
 
 #jumbotron .jumbo-box .j-txt .anchor a{
@@ -225,7 +227,6 @@ img{
 }
 
 .usertype{
-  height: 40px;
   font-size: 18px;
   text-align: center;
   padding: 8px;
@@ -274,7 +275,7 @@ img{
 }
 
 .offer ul{
-  padding: 0 20px;
+  padding: 0 30px;
   margin-top: 28px;
   position: relative;
 }
@@ -362,7 +363,6 @@ img{
 }
 
 .business .functions{
-  height: 470px;
   margin-bottom: 80px;
 }
 
@@ -381,13 +381,13 @@ img{
 /*-----------------------FOOTER------------------*/
 
 footer{
-  height: 580px;
   background-color: #000000;
   color: white;
+  padding-top: 26px;
 }
 
 .foot-box{
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 40px;
 }
